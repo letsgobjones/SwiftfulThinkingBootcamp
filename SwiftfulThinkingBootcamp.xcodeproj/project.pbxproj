@@ -30,19 +30,9 @@
 /* End PBXFileReference section */
 
 /* Begin PBXFileSystemSynchronizedRootGroup section */
-		CAB33D822E4792D500941E69 /* SwiftfulThinkingBootcamp */ = {
+		CAB33DD92E47A78E00941E69 /* SwiftfulThinkingBootcamp */ = {
 			isa = PBXFileSystemSynchronizedRootGroup;
 			path = SwiftfulThinkingBootcamp;
-			sourceTree = "<group>";
-		};
-		CAB33D922E4792D600941E69 /* SwiftfulThinkingBootcampTests */ = {
-			isa = PBXFileSystemSynchronizedRootGroup;
-			path = SwiftfulThinkingBootcampTests;
-			sourceTree = "<group>";
-		};
-		CAB33D9C2E4792D600941E69 /* SwiftfulThinkingBootcampUITests */ = {
-			isa = PBXFileSystemSynchronizedRootGroup;
-			path = SwiftfulThinkingBootcampUITests;
 			sourceTree = "<group>";
 		};
 /* End PBXFileSystemSynchronizedRootGroup section */
@@ -75,10 +65,8 @@
 		CAB33D772E4792D500941E69 = {
 			isa = PBXGroup;
 			children = (
-				CAB33D822E4792D500941E69 /* SwiftfulThinkingBootcamp */,
-				CAB33D922E4792D600941E69 /* SwiftfulThinkingBootcampTests */,
-				CAB33D9C2E4792D600941E69 /* SwiftfulThinkingBootcampUITests */,
 				CAB33D812E4792D500941E69 /* Products */,
+				CAB33DD92E47A78E00941E69 /* SwiftfulThinkingBootcamp */,
 			);
 			sourceTree = "<group>";
 		};
@@ -108,7 +96,7 @@
 			dependencies = (
 			);
 			fileSystemSynchronizedGroups = (
-				CAB33D822E4792D500941E69 /* SwiftfulThinkingBootcamp */,
+				CAB33DD92E47A78E00941E69 /* SwiftfulThinkingBootcamp */,
 			);
 			name = SwiftfulThinkingBootcamp;
 			packageProductDependencies = (
@@ -130,9 +118,6 @@
 			dependencies = (
 				CAB33D912E4792D600941E69 /* PBXTargetDependency */,
 			);
-			fileSystemSynchronizedGroups = (
-				CAB33D922E4792D600941E69 /* SwiftfulThinkingBootcampTests */,
-			);
 			name = SwiftfulThinkingBootcampTests;
 			packageProductDependencies = (
 			);
@@ -153,9 +138,6 @@
 			dependencies = (
 				CAB33D9B2E4792D600941E69 /* PBXTargetDependency */,
 			);
-			fileSystemSynchronizedGroups = (
-				CAB33D9C2E4792D600941E69 /* SwiftfulThinkingBootcampUITests */,
-			);
 			name = SwiftfulThinkingBootcampUITests;
 			packageProductDependencies = (
 			);
@@ -171,7 +153,7 @@
 			attributes = {
 				BuildIndependentTargetsInParallel = 1;
 				LastSwiftUpdateCheck = 1640;
-				LastUpgradeCheck = 1640;
+				LastUpgradeCheck = 2600;
 				TargetAttributes = {
 					CAB33D7F2E4792D500941E69 = {
 						CreatedOnToolsVersion = 16.4;
@@ -328,6 +310,7 @@
 				MTL_FAST_MATH = YES;
 				ONLY_ACTIVE_ARCH = YES;
 				SDKROOT = iphoneos;
+				STRING_CATALOG_GENERATE_SYMBOLS = YES;
 				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "DEBUG $(inherited)";
 				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
 			};
@@ -385,6 +368,7 @@
 				MTL_ENABLE_DEBUG_INFO = NO;
 				MTL_FAST_MATH = YES;
 				SDKROOT = iphoneos;
+				STRING_CATALOG_GENERATE_SYMBOLS = YES;
 				SWIFT_COMPILATION_MODE = wholemodule;
 				VALIDATE_PRODUCT = YES;
 			};
@@ -400,6 +384,7 @@
 				DEVELOPMENT_TEAM = YU5RM84NC9;
 				ENABLE_PREVIEWS = YES;
 				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_KEY_CFBundleDisplayName = Bootcamp;
 				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
 				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
 				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
@@ -428,6 +413,7 @@
 				DEVELOPMENT_TEAM = YU5RM84NC9;
 				ENABLE_PREVIEWS = YES;
 				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_KEY_CFBundleDisplayName = Bootcamp;
 				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
 				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
 				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
