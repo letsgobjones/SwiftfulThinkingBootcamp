@@ -87,3 +87,4 @@ struct foregroundLayer: View {
 func getAlert(text: String) -> Alert {
   return Alert(title: Text(text))
 }
+ 
