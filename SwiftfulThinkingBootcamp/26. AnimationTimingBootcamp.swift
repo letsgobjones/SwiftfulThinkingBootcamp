@@ -7,6 +7,7 @@
 
 import SwiftUI
 
+
 struct AnimationTimingBootcamp: View {
   @State var isAnimating: Bool = false
   let timing: Double = 10
